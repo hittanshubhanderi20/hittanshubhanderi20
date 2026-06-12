@@ -1,447 +1,541 @@
 <!-- ============================================================= -->
-<!--                     ANIMATED HEADER BANNER                    -->
+<!--                     HERO  ·  Liquid Glass                     -->
 <!-- ============================================================= -->
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=240&section=header&text=Hittanshu%20Bhanderi&fontSize=64&fontColor=ffffff&fontAlignY=38&desc=Machine%20Learning%20Engineer%20%E2%80%A2%20AI%20Systems%20Builder&descAlignY=58&descSize=18&animation=fadeIn" alt="header"/>
+<svg width="100%" viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hittanshu Bhanderi · Machine Learning Engineer · AI Systems Builder">
+  <defs>
+    <linearGradient id="heroBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A0A0F"/>
+      <stop offset="1" stop-color="#13131C"/>
+    </linearGradient>
+    <linearGradient id="iridescent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FF6B9D"/>
+      <stop offset="0.25" stop-color="#C084FC"/>
+      <stop offset="0.5" stop-color="#60A5FA"/>
+      <stop offset="0.75" stop-color="#5EEAD4"/>
+      <stop offset="1" stop-color="#FDE68A"/>
+    </linearGradient>
+    <linearGradient id="iridescentSoft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FF6B9D" stop-opacity="0.45"/>
+      <stop offset="0.5" stop-color="#C084FC" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#5EEAD4" stop-opacity="0.45"/>
+    </linearGradient>
+    <radialGradient id="orbCenter" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.55"/>
+      <stop offset="0.4" stop-color="#C084FC" stop-opacity="0.30"/>
+      <stop offset="0.8" stop-color="#60A5FA" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#0A0A0F" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbAccent" cx="0.3" cy="0.3" r="0.7">
+      <stop offset="0" stop-color="#FF6B9D" stop-opacity="0.35"/>
+      <stop offset="0.5" stop-color="#C084FC" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#5EEAD4" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="orbBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="28"/>
+    </filter>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
 
-<!-- Typing animation -->
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#heroBg)"/>
+
+  <!-- Iridescent orb (glow) -->
+  <circle cx="980" cy="200" r="200" fill="url(#orbAccent)" filter="url(#orbBlur)"/>
+  <circle cx="980" cy="200" r="160" fill="url(#orbCenter)" filter="url(#orbBlur)"/>
+  <circle cx="980" cy="200" r="80" fill="url(#orbCenter)" opacity="0.7"/>
+  <circle cx="950" cy="170" r="22" fill="#FFFFFF" opacity="0.35" filter="url(#softGlow)"/>
+
+  <!-- Iridescent accent bar -->
+  <rect x="80" y="148" width="56" height="3" rx="1.5" fill="url(#iridescent)"/>
+
+  <!-- Status pill -->
+  <g transform="translate(80, 96)">
+    <rect width="186" height="34" rx="17" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.14)" stroke-width="0.6"/>
+    <circle cx="20" cy="17" r="4.5" fill="#30D158"/>
+    <circle cx="20" cy="17" r="4.5" fill="#30D158" opacity="0.35" filter="url(#softGlow)"/>
+    <text x="36" y="22" fill="#F5F5F7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', system-ui, sans-serif" font-size="13" font-weight="500" letter-spacing="0.3">Available · July 2026</text>
+  </g>
+
+  <!-- Name -->
+  <text x="80" y="216" fill="#F5F5F7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', system-ui, sans-serif" font-size="64" font-weight="300" letter-spacing="-1.8">Hittanshu Bhanderi</text>
+
+  <!-- Subtitle -->
+  <text x="82" y="256" fill="#A1A1A6" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', system-ui, sans-serif" font-size="22" font-weight="400" letter-spacing="0.1">Machine Learning Engineer  ·  AI Systems Builder</text>
+
+  <!-- Meta strip -->
+  <line x1="80" y1="318" x2="200" y2="318" stroke="url(#iridescentSoft)" stroke-width="0.8"/>
+  <text x="80" y="345" fill="#6E6E73" font-family="-apple-system, BlinkMacSystemFont, 'SF Mono', 'JetBrains Mono', monospace" font-size="11" font-weight="500" letter-spacing="2.4">M.S. DATA SCIENCE  ·  NORTHEASTERN UNIVERSITY  ·  GRADUATING JUNE 2026</text>
+</svg>
+
+<br/><br/>
+
 <a href="https://github.com/hittanshubhanderi20">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=900&color=8B5CF6&center=true&vCenter=true&multiline=false&width=820&height=58&lines=Production+Agentic+RAG+%E2%80%A2+9%2B+Departments+at+Edulyt;Open+Source+Contributor+%E2%9C%A6+Google+OpenXLA%2FXLA;Fine-tuning+LLMs+%E2%80%94+QLoRA+%2B+DPO+%2B+vLLM;Compiler%2FInference+Optimization+%E2%80%A2+MLIR+%E2%80%A2+CUDA;Building+the+Next+Generation+of+LLM+Systems" alt="typing-svg"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=18&duration=2800&pause=900&color=C084FC&center=true&vCenter=true&width=820&height=40&lines=Production+agentic+RAG+at+scale+%E2%80%94+9%2B+departments+at+Edulyt;Open-source+contributor+at+Google+OpenXLA%2FXLA;Fine-tuning+LLMs+with+QLoRA+%2B+DPO+%2B+vLLM;Compiler-level+inference+optimization+%E2%80%94+MLIR+%2F+CUDA+%2F+WGSL" alt="typing-svg"/>
 </a>
 
-<br/>
+<br/><br/>
 
-<!-- Academic + Location row -->
-<p>
-  <img src="https://img.shields.io/badge/M.S.%20Data%20Science-Northeastern%20University-8B5CF6?style=for-the-badge&logo=academia&logoColor=white&labelColor=0D1117"/>
-  <img src="https://img.shields.io/badge/GPA-3.65%20%2F%204.00-A78BFA?style=for-the-badge&labelColor=0D1117"/>
-  <img src="https://img.shields.io/badge/Graduating-June%202026-6366F1?style=for-the-badge&labelColor=0D1117"/>
-  <img src="https://img.shields.io/badge/Boston%2C%20MA%20%E2%86%92%20San%20Francisco-7C3AED?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=0D1117"/>
-</p>
-
-<!-- Social CTA row -->
-<p>
-  <a href="https://github.com/hittanshubhanderi20"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
-  <a href="https://www.linkedin.com/in/hittanshubhanderi/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:bhanderi.h@northeastern.edu"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://github.com/hittanshubhanderi20"><img src="https://img.shields.io/badge/Portfolio-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white"/></a>
-</p>
-
-<!-- Profile metrics row -->
-<p>
-  <img src="https://komarev.com/ghpvc/?username=hittanshubhanderi20&label=Profile%20Views&color=8B5CF6&style=for-the-badge"/>
-  <img src="https://img.shields.io/github/followers/hittanshubhanderi20?label=Followers&style=for-the-badge&color=6366F1&logo=github&labelColor=0D1117"/>
-  <img src="https://img.shields.io/github/stars/hittanshubhanderi20?label=Stars&style=for-the-badge&color=A78BFA&logo=github&labelColor=0D1117"/>
-</p>
+<a href="https://github.com/hittanshubhanderi20"><img src="https://img.shields.io/badge/GitHub-0A0A0F?style=for-the-badge&logo=github&logoColor=F5F5F7&labelColor=0A0A0F"/></a>
+&nbsp;
+<a href="https://www.linkedin.com/in/hittanshubhanderi/"><img src="https://img.shields.io/badge/LinkedIn-13131C?style=for-the-badge&logo=linkedin&logoColor=60A5FA&labelColor=13131C"/></a>
+&nbsp;
+<a href="mailto:bhanderi.h@northeastern.edu"><img src="https://img.shields.io/badge/Email-13131C?style=for-the-badge&logo=gmail&logoColor=FF6B9D&labelColor=13131C"/></a>
 
 </div>
 
 <br/>
 
 <!-- ============================================================= -->
-<!--                          ABOUT                                -->
+<!--                         About                                  -->
 <!-- ============================================================= -->
 
-## &nbsp;&nbsp;⟢&nbsp;&nbsp;About
+## About
 
-> *I build AI systems that work in production — not just notebooks.*
+> I build AI systems that work in production — not just notebooks.
 
-I'm an **ML/AI Engineer** finishing my Master's in Data Science at **Northeastern University**, with a focus on **production LLM systems**, **agentic AI**, and **compiler-level inference optimization**. My work sits at the intersection of applied research and shipping software — I care about latency budgets, eval scores, and whether the system still works at 3 AM.
+I'm a Machine Learning Engineer finishing my Master's in Data Science at Northeastern University, focused on **production LLM systems**, **agentic AI**, and **compiler-level inference optimization**. My work sits at the intersection of applied research and shipping software. I care about latency budgets, eval scores, and whether the system is still running at 3 AM.
 
-What I bring to a team:
+The short version of what I bring:
 
-- **Production AI Systems** — End-to-end agentic RAG pipelines, multi-agent orchestration, source attribution, and hallucination detection — deployed across **9+ business departments** at Edulyt.
-- **LLM Engineering** — Fine-tuning 7B open-weight models with QLoRA + DPO, automated evaluation (RAGAS, ROUGE, BERTScore), and serving via vLLM + FastAPI + Docker.
-- **Open Source / Compilers** — Merged C++ contribution to **Google's OpenXLA/XLA** (PR #36975) — debug tooling for HLO output used by JAX, TensorFlow, and PyTorch/XLA.
-- **Systems Depth** — MLIR custom dialects for LLM decoding, browser-native FlashAttention in raw WGSL, and a local-first agentic knowledge base running on Apple Silicon.
-- **Product Engineering Mindset** — I ship. I write reports. I instrument. I optimize for the people who'll use the thing.
+— **Production AI systems.** End-to-end agentic RAG pipelines with source attribution and hallucination detection, deployed across 9+ business departments at Edulyt.
 
-### ⟢ Open To
+— **LLM engineering.** Fine-tuning 7B open-weight models with QLoRA + DPO, automated evaluation via RAGAS / ROUGE / BERTScore, serving with vLLM and FastAPI.
 
-```diff
-+ Full-Time ML / AI Engineer roles (US)        — starting July 2026
-+ Applied Scientist / LLM Infrastructure roles — Boston · NYC · San Francisco · Seattle · Remote
-+ AI-native startups, LLM tooling, frontier AI labs
-+ F-1 OPT — 3 years work authorization, no immediate sponsorship needed
-```
+— **Open source at the compiler layer.** Merged C++ contribution to Google's OpenXLA/XLA (PR #36975) — debug tooling for HLO output used by JAX, TensorFlow, and PyTorch/XLA.
+
+— **Systems depth.** Custom MLIR dialect for LLM decoding, browser-native FlashAttention in raw WGSL, and a local-first agentic knowledge base on Apple Silicon.
 
 <br/>
 
 <!-- ============================================================= -->
-<!--                        TECH STACK                             -->
+<!--                       Tech Stack                              -->
 <!-- ============================================================= -->
 
-## &nbsp;&nbsp;⟢&nbsp;&nbsp;Tech Stack
+## Tech Stack
 
 <div align="center">
 
-**Languages**
+<svg width="100%" viewBox="0 0 1200 760" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Curated technology stack">
+  <defs>
+    <linearGradient id="tsBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0F0F18"/>
+      <stop offset="1" stop-color="#0A0A0F"/>
+    </linearGradient>
+    <linearGradient id="tileFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="tileRim" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FF6B9D" stop-opacity="0.32"/>
+      <stop offset="0.5" stop-color="#C084FC" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#5EEAD4" stop-opacity="0.32"/>
+    </linearGradient>
+    <linearGradient id="tileTopHL" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="dividerGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C084FC" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#C084FC" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#C084FC" stop-opacity="0"/>
+    </linearGradient>
+    <symbol id="tile" viewBox="0 0 200 56">
+      <rect x="0.5" y="0.5" width="199" height="55" rx="14" fill="url(#tileFill)" stroke="url(#tileRim)" stroke-width="0.7"/>
+      <rect x="1" y="1" width="198" height="20" rx="13" fill="url(#tileTopHL)"/>
+    </symbol>
+  </defs>
 
-<img src="https://skillicons.dev/icons?i=python,cpp,rust,c,typescript,javascript,go,bash,r&theme=dark" alt="languages"/>
+  <rect width="1200" height="760" rx="24" fill="url(#tsBg)"/>
 
-**AI / ML / Data**
+  <!-- Category 1: Languages -->
+  <text x="60" y="64" fill="#86868B" font-family="-apple-system, 'SF Mono', monospace" font-size="11" font-weight="500" letter-spacing="2.6">LANGUAGES</text>
+  <line x1="60" y1="78" x2="1140" y2="78" stroke="url(#dividerGrad)" stroke-width="0.6"/>
+  <g transform="translate(60, 98)">
+    <use href="#tile" x="0"   y="0" width="200" height="56"/><text x="100" y="34" text-anchor="middle" fill="#F5F5F7" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="15" font-weight="500">Python</text>
+    <use href="#tile" x="216" y="0" width="200" height="56"/><text x="316" y="34" text-anchor="middle" fill="#F5F5F7" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="15" font-weight="500">C++</text>
+    <use href="#tile" x="432" y="0" width="200" height="56"/><text x="532" y="34" text-anchor="middle" fill="#F5F5F7" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="15" font-weight="500">Rust</text>
+    <use href="#tile" x="648" y="0" width="200" height="56"/><text x="748" y="34" text-anchor="middle" fill="#F5F5F7" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="15" font-weight="500">TypeScript</text>
+    <use href="#tile" x="864" y="0" width="200" height="56"/><text x="964" y="34" text-anchor="middle" fill="#F5F5F7" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="15" font-weight="500">SQL</text>
+  </g>
 
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv&theme=dark" alt="ml"/>
-<br/>
-<img src="https://img.shields.io/badge/HuggingFace-FFAE33?style=flat-square&logo=huggingface&logoColor=black&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/LangGraph-8B5CF6?style=flat-square&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/vLLM-6366F1?style=flat-square&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/llama.cpp-A78BFA?style=flat-square&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/RAGAS-7C3AED?style=flat-square&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/W%26B-FFBE00?style=flat-square&logo=weightsandbiases&logoColor=black&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/MLIR%20%2F%20XLA-FF6F00?style=flat-square&labelColor=0D1117"/>
+  <!-- Category 2: AI / ML -->
+  <text x="60" y="206" fill="#86868B" font-family="-apple-system, 'SF Mono', monospace" font-size="11" font-weight="500" letter-spacing="2.6">AI  ·  ML  ·  LLM  SYSTEMS</text>
+  <line x1="60" y1="220" x2="1140" y2="220" stroke="url(#dividerGrad)" stroke-width="0.6"/>
+  <g transform="translate(60, 240)">
+    <use href="#tile" x="0"   y="0" width="200" height="56"/><text x="100" y="34" text-anchor="middle" fill="#F5F5F7" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="15" font-weight="500">PyTorch</text>
+    <use href="#tile" x="216" y="0" width="200" height="56"/><text x="316" y="34" text-anchor="middle" fill="#F5F5F7" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="15" font-weight="500">HuggingFace</text>
+    <use href="#tile" x="432" y="0" width="200" height="56"/><text x="532" y="34" text-anchor="middle" fill="#F5F5F7" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="15" font-weight="500">LangGraph</text>
+    <use href="#tile" x="648" y="0" width="200" height="56"/><text x="748" y="34" text-anchor="middle" fill="#F5F5F7" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="15" font-weight="500">vLLM</text>
+    <use href="#tile" x="864" y="0" width="200" height="56"/><text x="964" y="34" text-anchor="middle" fill="#F5F5F7" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="15" font-weight="500">RAGAS</text>
+  </g>
 
-**Backend & Databases**
+  <!-- Category 3: Compilers / Systems -->
+  <text x="60" y="348" fill="#86868B" font-family="-apple-system, 'SF Mono', monospace" font-size="11" font-weight="500" letter-spacing="2.6">COMPILERS  ·  INFERENCE  ·  SYSTEMS</text>
+  <line x1="60" y1="362" x2="1140" y2="362" stroke="url(#dividerGrad)" stroke-width="0.6"/>
+  <g transform="translate(60, 382)">
+    <use href="#tile" x="0"   y="0" width="200" height="56"/><text x="100" y="34" text-anchor="middle" fill="#F5F5F7" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="15" font-weight="500">MLIR</text>
+    <use href="#tile" x="216" y="0" width="200" height="56"/><text x="316" y="34" text-anchor="middle" fill="#F5F5F7" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="15" font-weight="500">XLA</text>
+    <use href="#tile" x="432" y="0" width="200" height="56"/><text x="532" y="34" text-anchor="middle" fill="#F5F5F7" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="15" font-weight="500">llama.cpp</text>
+    <use href="#tile" x="648" y="0" width="200" height="56"/><text x="748" y="34" text-anchor="middle" fill="#F5F5F7" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="15" font-weight="500">CUDA</text>
+    <use href="#tile" x="864" y="0" width="200" height="56"/><text x="964" y="34" text-anchor="middle" fill="#F5F5F7" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="15" font-weight="500">WGSL · WebGPU</text>
+  </g>
 
-<img src="https://skillicons.dev/icons?i=fastapi,flask,nodejs,postgres,mongodb,redis,sqlite&theme=dark" alt="backend"/>
-<br/>
-<img src="https://img.shields.io/badge/ChromaDB-FFCA28?style=flat-square&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/Pinecone-3B82F6?style=flat-square&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white&labelColor=0D1117"/>
+  <!-- Category 4: Backend / Data -->
+  <text x="60" y="490" fill="#86868B" font-family="-apple-system, 'SF Mono', monospace" font-size="11" font-weight="500" letter-spacing="2.6">BACKEND  ·  DATA</text>
+  <line x1="60" y1="504" x2="1140" y2="504" stroke="url(#dividerGrad)" stroke-width="0.6"/>
+  <g transform="translate(60, 524)">
+    <use href="#tile" x="0"   y="0" width="200" height="56"/><text x="100" y="34" text-anchor="middle" fill="#F5F5F7" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="15" font-weight="500">FastAPI</text>
+    <use href="#tile" x="216" y="0" width="200" height="56"/><text x="316" y="34" text-anchor="middle" fill="#F5F5F7" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="15" font-weight="500">PostgreSQL</text>
+    <use href="#tile" x="432" y="0" width="200" height="56"/><text x="532" y="34" text-anchor="middle" fill="#F5F5F7" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="15" font-weight="500">ChromaDB</text>
+    <use href="#tile" x="648" y="0" width="200" height="56"/><text x="748" y="34" text-anchor="middle" fill="#F5F5F7" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="15" font-weight="500">DuckDB</text>
+    <use href="#tile" x="864" y="0" width="200" height="56"/><text x="964" y="34" text-anchor="middle" fill="#F5F5F7" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="15" font-weight="500">Spark</text>
+  </g>
 
-**Frontend & Visualization**
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,html,css,tailwind&theme=dark" alt="frontend"/>
-<br/>
-<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/Gradio-FF7C00?style=flat-square&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white&labelColor=0D1117"/>
-
-**Cloud, DevOps & Tooling**
-
-<img src="https://skillicons.dev/icons?i=aws,azure,gcp,docker,kubernetes,git,github,githubactions,linux,vscode&theme=dark" alt="devops"/>
+  <!-- Category 5: Cloud / DevOps -->
+  <text x="60" y="632" fill="#86868B" font-family="-apple-system, 'SF Mono', monospace" font-size="11" font-weight="500" letter-spacing="2.6">CLOUD  ·  DEVOPS  ·  TOOLING</text>
+  <line x1="60" y1="646" x2="1140" y2="646" stroke="url(#dividerGrad)" stroke-width="0.6"/>
+  <g transform="translate(60, 666)">
+    <use href="#tile" x="0"   y="0" width="200" height="56"/><text x="100" y="34" text-anchor="middle" fill="#F5F5F7" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="15" font-weight="500">AWS</text>
+    <use href="#tile" x="216" y="0" width="200" height="56"/><text x="316" y="34" text-anchor="middle" fill="#F5F5F7" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="15" font-weight="500">Docker</text>
+    <use href="#tile" x="432" y="0" width="200" height="56"/><text x="532" y="34" text-anchor="middle" fill="#F5F5F7" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="15" font-weight="500">Kubernetes</text>
+    <use href="#tile" x="648" y="0" width="200" height="56"/><text x="748" y="34" text-anchor="middle" fill="#F5F5F7" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="15" font-weight="500">MLflow</text>
+    <use href="#tile" x="864" y="0" width="200" height="56"/><text x="964" y="34" text-anchor="middle" fill="#F5F5F7" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="15" font-weight="500">GitHub Actions</text>
+  </g>
+</svg>
 
 </div>
 
 <br/>
 
 <!-- ============================================================= -->
-<!--                     AI / ML EXPERTISE                         -->
+<!--                  AI / ML Expertise                            -->
 <!-- ============================================================= -->
 
-## &nbsp;&nbsp;⟢&nbsp;&nbsp;AI / ML Expertise
+## AI / ML Expertise
 
 <div align="center">
 
-| Domain | Proficiency | Details |
+| Domain | Level | Detail |
 | :--- | :---: | :--- |
-| **Large Language Models** | `████████░░` Expert | Fine-tuning · QLoRA · DPO · prompt engineering · structured outputs · vLLM serving |
-| **Retrieval-Augmented Generation** | `████████░░` Expert | GraphRAG · self-RAG · multi-agent · RAGAS · ChromaDB · token-aware chunking |
-| **Agentic AI Systems** | `████████░░` Expert | LangGraph · A2A protocol · planner-executor-critic · tool calling · multi-step orchestration |
-| **ML Systems Engineering** | `███████░░░` Advanced | Production pipelines · MLOps · model serving · Docker · FastAPI · CI/CD |
-| **Compiler / Inference Opt.** | `███████░░░` Advanced | XLA · MLIR · llama.cpp · CUDA · KV-cache · paged attention · speculative decoding |
-| **Deep Learning** | `███████░░░` Advanced | PyTorch · CNN architectures · transformers · medical imaging · hyperparameter tuning |
-| **LLM Evaluation** | `███████░░░` Advanced | RAGAS · ROUGE · BERTScore · hallucination detection · faithfulness benchmarks |
-| **Data Engineering** | `██████░░░░` Proficient | ETL · Spark · DuckDB · feature pipelines · vector databases |
+| **Large language models** | `████████░░` | Fine-tuning · QLoRA · DPO · prompt engineering · structured outputs · vLLM serving |
+| **Retrieval-augmented generation** | `████████░░` | GraphRAG · self-RAG · multi-agent · RAGAS · ChromaDB · token-aware chunking |
+| **Agentic AI systems** | `████████░░` | LangGraph · A2A protocol · planner-executor-critic · tool calling · multi-step orchestration |
+| **ML systems engineering** | `███████░░░` | Production pipelines · model serving · MLOps · Docker · FastAPI · CI/CD |
+| **Compiler & inference optimization** | `███████░░░` | XLA · MLIR · llama.cpp · CUDA · KV-cache · paged attention · speculative decoding |
+| **Deep learning** | `███████░░░` | PyTorch · CNN architectures · transformers · medical imaging |
+| **LLM evaluation** | `███████░░░` | RAGAS · ROUGE · BERTScore · hallucination detection · faithfulness benchmarks |
+| **Data engineering** | `██████░░░░` | ETL · Spark · DuckDB · feature pipelines · vector databases |
 
 </div>
 
 <br/>
 
 <!-- ============================================================= -->
-<!--                     FEATURED PROJECTS                         -->
+<!--                     Featured Projects                         -->
 <!-- ============================================================= -->
 
-## &nbsp;&nbsp;⟢&nbsp;&nbsp;Featured Projects
+## Featured Projects
 
 <br/>
 
 <details>
-<summary><b>&nbsp;⟢&nbsp; Production Agentic RAG System</b> &nbsp;·&nbsp; <i>deployed across 9+ departments at Edulyt</i></summary>
+<summary>&nbsp; <b>Production Agentic RAG System</b> &nbsp; — &nbsp; <i>deployed across 9+ departments at Edulyt</i></summary>
 
 <br/>
 
-An end-to-end **production-grade agentic RAG system** built and deployed at Edulyt, serving as a multi-tenant knowledge layer for 9+ business departments. Implements a **planner-executor-critic** orchestration with **GraphRAG retrieval** and a **self-RAG critique loop** for hallucination detection. Uses **RAGAS-based evaluation** with source attribution and a token-aware chunking gate.
+End-to-end **production-grade agentic RAG system** serving as a multi-tenant knowledge layer for 9+ business departments. Implements a **planner-executor-critic** orchestration with **GraphRAG retrieval** and a **self-RAG critique loop** for hallucination detection. **RAGAS-based evaluation** with source attribution and a token-aware chunking gate.
 
-| Stack | Scale | Performance | Reliability | Impact | Repository |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| LangGraph · GraphRAG · ChromaDB · GPT-4o · FastAPI · Docker · Azure | 9+ departments · multi-tenant · production traffic | Context recall **0.71 → 0.84** · Faithfulness **0.78 → 0.91** · p99 latency **−30%** | Source attribution · self-critique retry · token-aware chunking | 40% faster department onboarding · 30% cloud cost reduction | [`agentic-rag-system`](https://github.com/hittanshubhanderi20) |
+| Stack | Scale | Performance | Reliability | Impact |
+| :--- | :--- | :--- | :--- | :--- |
+| LangGraph · GraphRAG · ChromaDB · GPT-4o · FastAPI · Docker · Azure | 9+ departments · multi-tenant · production traffic | Context recall **0.71 → 0.84** · Faithfulness **0.78 → 0.91** · p99 latency **−30%** | Source attribution · self-critique retry · token-aware chunking | 40% faster onboarding · 30% cloud cost reduction |
 
-**What makes it different:** Most RAG demos die at the "context window silently truncates" failure mode. We hit it in production — answers started referencing sources that weren't in the retrieved context. Root cause: a tokenizer mismatch between the retrieval and generation stages. Fix was a token-aware chunking layer and a source-attribution gate that refuses to answer if no retrieved chunk supports the claim. Faithfulness moved from 0.78 to 0.91. That's the moment the system became production-trustable.
+The challenge that earned it production trust: answers started referencing sources that weren't in the retrieved context. Root cause was a tokenizer mismatch between retrieval and generation. The fix was a token-aware chunking layer plus a source-attribution gate that refuses to answer when no retrieved chunk supports the claim. Faithfulness moved from 0.78 to 0.91 — the moment the system became safe to deploy.
 
 </details>
 
 <details>
-<summary><b>&nbsp;⟢&nbsp; OpenXLA / XLA Compiler Contribution</b> &nbsp;·&nbsp; <i>merged into Google's compiler infrastructure</i></summary>
+<summary>&nbsp; <b>OpenXLA / XLA Compiler Contribution</b> &nbsp; — &nbsp; <i>merged into Google's compiler infrastructure</i></summary>
 
 <br/>
 
-Merged a **C++ contribution to Google's OpenXLA/XLA compiler** — the infrastructure that powers **JAX, TensorFlow, and PyTorch/XLA**. Implemented the `xla_hlo_print_inline_stack_frames` debug option, which inlines source-location frames directly in HLO output and eliminates cross-referencing overhead for developers debugging compiled programs.
+Merged a **C++ contribution to Google's OpenXLA/XLA compiler** — the infrastructure that powers **JAX, TensorFlow, and PyTorch/XLA**. Implemented the `xla_hlo_print_inline_stack_frames` debug option, which inlines source-location frames directly in HLO output and eliminates the cross-referencing overhead developers hit when debugging compiled programs.
 
-| Stack | Scale | Performance | Review | Impact | Repository |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| C++ · Protocol Buffers · HLO IR · XLA Compiler Infrastructure | Used by **JAX · TF · PyTorch/XLA** | Removed N+1 lookup pattern in HLO debug workflow | Code-reviewed by Google maintainers | Merged into `openxla:main` | [`openxla/xla#36975`](https://github.com/openxla/xla/pull/36975) |
+| Stack | Scale | Review | Status | Link |
+| :--- | :--- | :--- | :--- | :--- |
+| C++ · Protocol Buffers · HLO IR · XLA Compiler | Used by JAX · TF · PyTorch/XLA | Reviewed by Google maintainers | Merged into `openxla:main` | [`openxla/xla#36975`](https://github.com/openxla/xla/pull/36975) |
 
-**Why this matters:** Open-source contributions to FAANG-grade compiler infrastructure are a rare signal at the MS level. The PR navigated XLA's internal IR, build system, and code-review culture — a credible proxy for "can ramp on any codebase fast."
+Open-source contributions to FAANG-grade compiler infrastructure are rare at the MS level. The PR navigated XLA's internal IR, build system, and Google's code-review culture — credible proxy for "can ramp on any codebase fast."
 
 </details>
 
 <details>
-<summary><b>&nbsp;⟢&nbsp; Mistral-7B Domain Fine-Tuning Pipeline</b> &nbsp;·&nbsp; <i>QLoRA + DPO + vLLM serving</i></summary>
+<summary>&nbsp; <b>Mistral-7B Domain Fine-Tuning Pipeline</b> &nbsp; — &nbsp; <i>QLoRA + DPO + vLLM serving</i></summary>
 
 <br/>
 
-End-to-end **domain-specific fine-tuning pipeline** for Mistral-7B on PubMedQA. **QLoRA (4-bit NF4, r=16, α=32, bf16)** for parameter-efficient training, **DPO alignment via TRL** for preference optimization, evaluated with ROUGE + BERTScore + custom domain benchmarks, served via vLLM + FastAPI + Docker.
+End-to-end **domain-specific fine-tuning pipeline** for Mistral-7B on PubMedQA. **QLoRA (4-bit NF4, r=16, α=32, bf16)** for parameter-efficient training, **DPO alignment via TRL** for preference optimization, evaluated with ROUGE + BERTScore + custom benchmarks, served via vLLM + FastAPI + Docker.
 
-| Stack | Scale | Performance | Security | Impact | Repository |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| PyTorch · HF PEFT · TRL · bitsandbytes · vLLM · FastAPI · Docker · W&B | 7B params · 5K PubMedQA samples · bf16 | **ROUGE-1 +20.6%** · **ROUGE-L +19.1%** · **BERTScore F1 0.88** | Containerized · prompt-injection guards · system-prompt sandboxing | Production-ready domain LLM template | [`mistral-7b-domain-pipeline`](https://github.com/hittanshubhanderi20) |
+| Stack | Scale | Performance | Serving |
+| :--- | :--- | :--- | :--- |
+| PyTorch · HF PEFT · TRL · bitsandbytes · vLLM · FastAPI · Docker · W&B | 7B params · 5K PubMedQA samples · bf16 | ROUGE-1 **+20.6%** · ROUGE-L **+19.1%** · BERTScore F1 **0.88** | Dockerized · prompt-injection guards · system-prompt sandboxing |
 
-**Behind the metrics:** The TRL library shipped six breaking changes during the build — documented all six in the repo, including the migration from `DPOTrainer` v0.7 → v0.29 API. The W&B run dashboard captures the full ablation grid.
+Behind the metrics: TRL shipped six breaking changes during the build — all documented in the repo, including the `DPOTrainer` v0.7 → v0.29 API migration. The W&B run captures the full ablation grid.
 
 </details>
 
 <details>
-<summary><b>&nbsp;⟢&nbsp; MLIR Custom Dialect for LLM Decoding</b> &nbsp;·&nbsp; <i>five compiler operations for inference</i></summary>
+<summary>&nbsp; <b>MLIR Custom Dialect for LLM Decoding</b> &nbsp; — &nbsp; <i>five compiler operations for inference</i></summary>
 
 <br/>
 
 A **custom MLIR dialect** for LLM decoding operations with five high-level ops, lowering passes to `linalg`/`affine` IR, and **torch-mlir integration**. Designed to expose LLM-specific structure (KV cache, speculative decoding, paged attention) at the compiler level for downstream optimization.
 
-| Stack | Operations | Lowering | Integration | Impact | Repository |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| MLIR · C++ · LLVM · linalg/affine IR · torch-mlir | `kvcache.alloc` · `kvcache.update` · `speculative.draft` · `speculative.verify` · `paged_attention` | High-level → linalg → affine → LLVM | torch-mlir frontend | Enables compiler-level optimization of decode loops | [`mlir-llm-dialect`](https://github.com/hittanshubhanderi20) |
+| Stack | Operations | Lowering | Integration |
+| :--- | :--- | :--- | :--- |
+| MLIR · C++ · LLVM · linalg/affine IR · torch-mlir | `kvcache.alloc` · `kvcache.update` · `speculative.draft` · `speculative.verify` · `paged_attention` | High-level → linalg → affine → LLVM | torch-mlir frontend |
 
 </details>
 
 <details>
-<summary><b>&nbsp;⟢&nbsp; FlashWeb — Browser-Native Tiled FlashAttention in WGSL</b> &nbsp;·&nbsp; <i>WebGPU compute kernels</i></summary>
+<summary>&nbsp; <b>FlashWeb — Browser-Native Tiled FlashAttention in WGSL</b> &nbsp; — &nbsp; <i>WebGPU compute kernels</i></summary>
 
 <br/>
 
-The first **browser-native tiled FlashAttention** implementation in raw WGSL (no compiler wrappers). Implements **tiled matrix multiplication**, **online softmax**, and the FlashAttention-2 memory access pattern as a WebGPU compute kernel — runs inside a Chrome tab with no native dependencies.
+A **browser-native tiled FlashAttention** implementation in raw WGSL (no compiler wrappers). Implements **tiled matrix multiplication**, **online softmax**, and the FlashAttention-2 memory access pattern as a WebGPU compute kernel — runs inside a Chrome tab with no native dependencies.
 
-| Stack | Algorithm | Performance | Demo | Impact | Repository |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| WGSL · WebGPU · JavaScript · Chrome | Tiled FlashAttention-2 · online softmax · shared-memory blocking | Benchmarked vs. naive attention baseline | Live Chrome demo | Enables in-browser LLM inference primitives | [`flashweb`](https://github.com/hittanshubhanderi20) |
-
-**Papers referenced:** FlashAttention (2205.14135) · FlashAttention-2 (2307.08691) · WebLLM (2412.15803).
+| Stack | Algorithm | Reference papers | Demo |
+| :--- | :--- | :--- | :--- |
+| WGSL · WebGPU · JavaScript · Chrome | Tiled FlashAttention-2 · online softmax · shared-memory blocking | FlashAttention (2205.14135) · FlashAttention-2 (2307.08691) · WebLLM (2412.15803) | Live Chrome demo |
 
 </details>
 
 <details>
-<summary><b>&nbsp;⟢&nbsp; LLM Inference Benchmarking Framework</b> &nbsp;·&nbsp; <i>throughput / latency / memory profiling</i></summary>
+<summary>&nbsp; <b>LLM Inference Benchmarking Framework</b> &nbsp; — &nbsp; <i>throughput, latency, memory profiling</i></summary>
 
 <br/>
 
-A reproducible **multi-backend LLM inference benchmark suite** covering throughput, p50/p99 latency, memory residency, and quantization quality. Supports **vLLM, llama.cpp, and HF Transformers** out of the box with a shared configuration schema and automated report generation.
+A reproducible **multi-backend LLM inference benchmark suite** covering throughput, p50/p99 latency, memory residency, and quantization-quality impact. Supports **vLLM**, **llama.cpp**, and **HF Transformers** with a shared configuration schema and automated report generation.
 
-| Stack | Backends | Metrics | Reproducibility | Impact | Repository |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| Python · PyTorch · vLLM · llama.cpp · Triton | vLLM · llama.cpp · HF Transformers | Throughput · p50/p99 latency · memory · ROUGE delta under quantization | Dockerized · seeded · YAML configs | Open-source eval harness | [`llm-inference-bench`](https://github.com/hittanshubhanderi20) |
+| Stack | Backends | Metrics | Reproducibility |
+| :--- | :--- | :--- | :--- |
+| Python · PyTorch · vLLM · llama.cpp · Triton | vLLM · llama.cpp · HF Transformers | Throughput · p50/p99 latency · memory · ROUGE delta under quantization | Dockerized · seeded · YAML configs |
 
 </details>
 
 <details>
-<summary><b>&nbsp;⟢&nbsp; Personal Brain — Local AI Knowledge Base</b> &nbsp;·&nbsp; <i>local-first, runs on M1 Mac</i></summary>
+<summary>&nbsp; <b>Personal Brain — Local AI Knowledge Base</b> &nbsp; — &nbsp; <i>local-first, runs on Apple Silicon</i></summary>
 
 <br/>
 
-A **local-first AI knowledge base** running entirely on Apple Silicon. Captures browsing discoveries, enriches them with local LLMs and SearXNG, writes structured notes to Obsidian, indexes everything into ChromaDB, and exposes a FastAPI query interface. **No cloud. No telemetry. Always-on.**
+A **local-first AI knowledge base** running entirely on Apple Silicon. Captures browsing discoveries, enriches them with local LLMs and SearXNG, writes structured notes to Obsidian, indexes everything into ChromaDB, and exposes a FastAPI query interface. **No cloud. No telemetry. Always on.**
 
-| Stack | Sources | Storage | Deployment | Impact | Repository |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| Ollama · ChromaDB · FastAPI · Obsidian · SearXNG · Docker | YouTube · HN · Wikipedia · Wayback · Stack Overflow · Alpha Vantage | Obsidian markdown + ChromaDB vectors | M2 dev → M1 always-on server (Git pull deploys) | Personal knowledge automation · privacy-preserving | [`personal-brain`](https://github.com/hittanshubhanderi20/personal-brain) |
+| Stack | Sources | Storage | Deployment |
+| :--- | :--- | :--- | :--- |
+| Ollama · ChromaDB · FastAPI · Obsidian · SearXNG · Docker | YouTube · HN · Wikipedia · Wayback · Stack Overflow · Alpha Vantage | Obsidian markdown + ChromaDB vectors | M2 dev → M1 always-on server (git pull deploys) |
 
 </details>
 
 <details>
-<summary><b>&nbsp;⟢&nbsp; Histopathology Image Classification (Deep Learning)</b> &nbsp;·&nbsp; <i>tumor detection on gigapixel slides</i></summary>
+<summary>&nbsp; <b>Histopathology Image Classification</b> &nbsp; — &nbsp; <i>tumor detection on gigapixel slides</i></summary>
 
 <br/>
 
 PyTorch **CNN pipeline** for tumor detection and classification on **gigapixel histopathology whole-slide images**. Hyperparameter tuning, advanced inference techniques, and batching optimizations for low-latency deployment in high-stakes medical settings.
 
-| Stack | Scale | Performance | Optimization | Impact | Repository |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| Python · PyTorch · ResNet · EfficientNet · OpenSlide · CUDA · TensorBoard | Gigapixel whole-slide images | **92% validation accuracy** | Batched inference · CUDA acceleration · throughput tuning | Tumor classification workflow | [`histopathology-cnn`](https://github.com/hittanshubhanderi20) |
+| Stack | Scale | Performance | Optimization |
+| :--- | :--- | :--- | :--- |
+| PyTorch · ResNet · EfficientNet · OpenSlide · CUDA · TensorBoard | Gigapixel whole-slide images | **92% validation accuracy** | Batched inference · CUDA acceleration · throughput tuning |
 
 </details>
 
 <br/>
 
 <!-- ============================================================= -->
-<!--                         EXPERIENCE                            -->
+<!--                       Experience                              -->
 <!-- ============================================================= -->
 
-## &nbsp;&nbsp;⟢&nbsp;&nbsp;Experience
+## Experience
 
-### &nbsp;⟢&nbsp; **ML Engineer Intern** &nbsp;·&nbsp; Edulyt India
-*Jan 2024 — Jul 2024 &nbsp;·&nbsp; Ahmedabad, India*
+### Machine Learning Engineer Intern  ·  Edulyt India
+*Jan 2024 — Jul 2024  ·  Ahmedabad, India*
 
-Owned the full ML lifecycle in production — from problem framing through architecture, implementation, deployment, and stakeholder sign-off — across **9+ real business units**. Not a single-model research project, an engineering system with real users.
+Owned the full ML lifecycle in production — from problem framing through architecture, implementation, deployment, and stakeholder sign-off — across 9+ real business units. Not a single-model research project; an engineering system with real users.
 
-**Scope of work:**
 - Designed and shipped an end-to-end **agentic RAG system** with multi-step orchestration, self-RAG critique loops, and tool-using agents — deployed across 9+ departments.
 - Built a **Docker-based ML serving framework** adopted across teams → **40% deployment-cycle reduction**.
 - Optimized **TensorFlow Serving** with dynamic batching on Azure → **30% p99 latency reduction**.
 - Embedded with non-technical stakeholders across content, support, assessment, analytics, and HR; translated domain requirements into retrieval-pipeline configurations.
-- Designed multi-tenant architecture so new departments onboarded without engineering involvement.
+- Designed a multi-tenant architecture so new departments onboarded without engineering involvement.
 
 `LangGraph` `GraphRAG` `RAGAS` `ChromaDB` `Azure OpenAI` `FastAPI` `Docker` `TensorFlow Serving` `Python`
 
 ---
 
-### &nbsp;⟢&nbsp; **Student Software Engineer** &nbsp;·&nbsp; Ecommbulls LLP
-*May 2022 — Jun 2022 &nbsp;·&nbsp; Gandhinagar, India*
+### Student Software Engineer  ·  Ecommbulls LLP
+*May 2022 — Jun 2022  ·  Gandhinagar, India*
 
-E-commerce backend and reliability work — fixed checkout-page abandonment caused by slow image loading (~20% mobile drop-off), built an inventory alert pipeline, and cleaned up product catalog data quality.
+E-commerce backend and reliability work — fixed checkout-page abandonment from slow image loading (~20% mobile drop-off), built an inventory alert pipeline, and cleaned up product catalog data quality.
 
-`Python` `SQL` `Backend` `Performance` `Data Quality`
+`Python` `SQL` `Backend` `Performance`
 
 <br/>
 
 <!-- ============================================================= -->
-<!--                       ACHIEVEMENTS                            -->
+<!--                      Achievements                             -->
 <!-- ============================================================= -->
 
-## &nbsp;&nbsp;⟢&nbsp;&nbsp;Achievements
+## Achievements
 
 <div align="center">
 
-| Recognition | Details |
-| :--- | :--- |
-| ⟢ **Merged Contributor — Google OpenXLA/XLA** | PR #36975 merged into `openxla:main` — debug tooling for HLO compiler IR |
-| ⟢ **Production Agentic RAG @ Scale** | Shipped to 9+ business departments — 40% faster onboarding, 30% cost reduction |
-| ⟢ **Mistral-7B Fine-Tune** | ROUGE-1 **+20.6%** · ROUGE-L **+19.1%** · BERTScore F1 **0.88** vs. base |
-| ⟢ **Histopathology CNN** | **92% validation accuracy** on gigapixel whole-slide tumor classification |
-| ⟢ **ATS Benchmark — Distyl AI Evaluation Engineer** | Scored **84%** — top decile match |
-| ⟢ **ATS Benchmark — CLEAR Forward-Deployed AI** | Scored **82%** |
-| ⟢ **ATS Benchmark — Bosch Agentic AI** | Scored **81%** |
-| ⟢ **Northeastern M.S. Data Science** | GPA **3.65 / 4.00** · graduating June 2026 |
+<svg width="100%" viewBox="0 0 1200 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Selected achievements">
+  <defs>
+    <linearGradient id="achBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0F0F18"/>
+      <stop offset="1" stop-color="#0A0A0F"/>
+    </linearGradient>
+    <linearGradient id="achCardFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="achCardRim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF6B9D" stop-opacity="0.35"/>
+      <stop offset="0.5" stop-color="#C084FC" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#5EEAD4" stop-opacity="0.35"/>
+    </linearGradient>
+    <linearGradient id="achCardTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="numGradPink" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF6B9D"/>
+      <stop offset="1" stop-color="#C084FC"/>
+    </linearGradient>
+    <linearGradient id="numGradBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#5EEAD4"/>
+    </linearGradient>
+    <linearGradient id="numGradAmber" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FDE68A"/>
+      <stop offset="1" stop-color="#FF6B9D"/>
+    </linearGradient>
+    <linearGradient id="numGradViolet" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C084FC"/>
+      <stop offset="1" stop-color="#60A5FA"/>
+    </linearGradient>
+    <symbol id="achCard" viewBox="0 0 270 200">
+      <rect x="0.5" y="0.5" width="269" height="199" rx="20" fill="url(#achCardFill)" stroke="url(#achCardRim)" stroke-width="0.8"/>
+      <rect x="1" y="1" width="268" height="48" rx="19" fill="url(#achCardTop)"/>
+    </symbol>
+  </defs>
+
+  <rect width="1200" height="460" rx="24" fill="url(#achBg)"/>
+
+  <!-- Header -->
+  <text x="60" y="64" fill="#86868B" font-family="-apple-system, 'SF Mono', monospace" font-size="11" font-weight="500" letter-spacing="2.6">SELECTED · ACHIEVEMENTS</text>
+
+  <!-- Row 1 -->
+  <g transform="translate(60, 92)">
+    <use href="#achCard" x="0"   y="0" width="270" height="200"/>
+    <text x="135" y="80"  text-anchor="middle" fill="url(#numGradPink)" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="48" font-weight="300" letter-spacing="-1">Merged</text>
+    <text x="135" y="125" text-anchor="middle" fill="#F5F5F7" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="14" font-weight="500">Google OpenXLA</text>
+    <text x="135" y="148" text-anchor="middle" fill="#86868B" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="12" font-weight="400">PR #36975 · compiler infra</text>
+    <line x1="60" y1="170" x2="210" y2="170" stroke="url(#achCardRim)" stroke-width="0.6"/>
+    <text x="135" y="186" text-anchor="middle" fill="#6E6E73" font-family="-apple-system, 'SF Mono', monospace" font-size="9" font-weight="500" letter-spacing="1.8">OPEN  SOURCE  ·  C++</text>
+
+    <use href="#achCard" x="286" y="0" width="270" height="200"/>
+    <text x="421" y="80"  text-anchor="middle" fill="url(#numGradBlue)" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="56" font-weight="300" letter-spacing="-2">9<tspan font-size="36">+</tspan></text>
+    <text x="421" y="125" text-anchor="middle" fill="#F5F5F7" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="14" font-weight="500">Departments</text>
+    <text x="421" y="148" text-anchor="middle" fill="#86868B" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="12" font-weight="400">Edulyt production RAG · shipped</text>
+    <line x1="346" y1="170" x2="496" y2="170" stroke="url(#achCardRim)" stroke-width="0.6"/>
+    <text x="421" y="186" text-anchor="middle" fill="#6E6E73" font-family="-apple-system, 'SF Mono', monospace" font-size="9" font-weight="500" letter-spacing="1.8">PRODUCTION  ·  AGENTIC  AI</text>
+
+    <use href="#achCard" x="572" y="0" width="270" height="200"/>
+    <text x="707" y="80"  text-anchor="middle" fill="url(#numGradAmber)" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="48" font-weight="300" letter-spacing="-1">+20.6<tspan font-size="32">%</tspan></text>
+    <text x="707" y="125" text-anchor="middle" fill="#F5F5F7" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="14" font-weight="500">ROUGE-1 gain</text>
+    <text x="707" y="148" text-anchor="middle" fill="#86868B" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="12" font-weight="400">Mistral-7B QLoRA + DPO</text>
+    <line x1="632" y1="170" x2="782" y2="170" stroke="url(#achCardRim)" stroke-width="0.6"/>
+    <text x="707" y="186" text-anchor="middle" fill="#6E6E73" font-family="-apple-system, 'SF Mono', monospace" font-size="9" font-weight="500" letter-spacing="1.8">LLM  FINE-TUNING</text>
+
+    <use href="#achCard" x="858" y="0" width="270" height="200"/>
+    <text x="993" y="80"  text-anchor="middle" fill="url(#numGradViolet)" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="56" font-weight="300" letter-spacing="-2">0.91</text>
+    <text x="993" y="125" text-anchor="middle" fill="#F5F5F7" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="14" font-weight="500">Faithfulness score</text>
+    <text x="993" y="148" text-anchor="middle" fill="#86868B" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="12" font-weight="400">Self-RAG critique · up from 0.78</text>
+    <line x1="918" y1="170" x2="1068" y2="170" stroke="url(#achCardRim)" stroke-width="0.6"/>
+    <text x="993" y="186" text-anchor="middle" fill="#6E6E73" font-family="-apple-system, 'SF Mono', monospace" font-size="9" font-weight="500" letter-spacing="1.8">RAG  EVALUATION</text>
+  </g>
+
+  <!-- Bottom row : compact strip -->
+  <g transform="translate(60, 320)">
+    <rect x="0.5" y="0.5" width="1079" height="80" rx="16" fill="url(#achCardFill)" stroke="url(#achCardRim)" stroke-width="0.6"/>
+    <rect x="1" y="1" width="1078" height="24" rx="15" fill="url(#achCardTop)"/>
+
+    <text x="40"  y="44" fill="#F5F5F7" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="22" font-weight="300" letter-spacing="-0.5">92<tspan font-size="14">%</tspan></text>
+    <text x="40"  y="64" fill="#86868B" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="11" font-weight="400">Histopathology accuracy</text>
+
+    <line x1="220" y1="20" x2="220" y2="60" stroke="rgba(255,255,255,0.08)"/>
+
+    <text x="260" y="44" fill="#F5F5F7" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="22" font-weight="300" letter-spacing="-0.5">3.65</text>
+    <text x="260" y="64" fill="#86868B" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="11" font-weight="400">Northeastern · MS Data Science</text>
+
+    <line x1="440" y1="20" x2="440" y2="60" stroke="rgba(255,255,255,0.08)"/>
+
+    <text x="480" y="44" fill="#F5F5F7" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="22" font-weight="300" letter-spacing="-0.5">84<tspan font-size="14">%</tspan></text>
+    <text x="480" y="64" fill="#86868B" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="11" font-weight="400">Distyl AI · ATS match</text>
+
+    <line x1="660" y1="20" x2="660" y2="60" stroke="rgba(255,255,255,0.08)"/>
+
+    <text x="700" y="44" fill="#F5F5F7" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="22" font-weight="300" letter-spacing="-0.5">82<tspan font-size="14">%</tspan></text>
+    <text x="700" y="64" fill="#86868B" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="11" font-weight="400">CLEAR Forward-Deployed AI</text>
+
+    <line x1="880" y1="20" x2="880" y2="60" stroke="rgba(255,255,255,0.08)"/>
+
+    <text x="920" y="44" fill="#F5F5F7" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="22" font-weight="300" letter-spacing="-0.5">81<tspan font-size="14">%</tspan></text>
+    <text x="920" y="64" fill="#86868B" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-size="11" font-weight="400">Bosch Agentic AI · ATS</text>
+  </g>
+</svg>
 
 </div>
 
 <br/>
 
 <!-- ============================================================= -->
-<!--                       CERTIFICATIONS                          -->
+<!--                    GitHub Analytics                           -->
 <!-- ============================================================= -->
 
-## &nbsp;&nbsp;⟢&nbsp;&nbsp;Certifications
+## GitHub Analytics
 
 <div align="center">
 
-**AWS**
-
-<img src="https://img.shields.io/badge/AWS%20Certified%20Cloud%20Practitioner-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/AWS%20Certified%20AI%20Practitioner-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/AWS%20Solutions%20Architect%20Associate-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white&labelColor=0D1117"/>
-
-**Oracle**
-
-<img src="https://img.shields.io/badge/OCI%20Generative%20AI%20Professional-F80000?style=for-the-badge&logo=oracle&logoColor=white&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/OCI%20AI%20Foundations-F80000?style=for-the-badge&logo=oracle&logoColor=white&labelColor=0D1117"/>
-
-**NPTEL**
-
-<img src="https://img.shields.io/badge/Deep%20Learning-8B5CF6?style=for-the-badge&logoColor=white&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/Python%20for%20Data%20Science-8B5CF6?style=for-the-badge&logoColor=white&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/Programming%20in%20Modern%20C%2B%2B-8B5CF6?style=for-the-badge&logoColor=white&labelColor=0D1117"/>
-
-**Cisco**
-
-<img src="https://img.shields.io/badge/Introduction%20to%20Cybersecurity-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/Networking%20Essentials-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white&labelColor=0D1117"/>
-
-</div>
-
-<br/>
-
-<!-- ============================================================= -->
-<!--                     CODING PROFILES                           -->
-<!-- ============================================================= -->
-
-## &nbsp;&nbsp;⟢&nbsp;&nbsp;Coding Profiles
-
-<div align="center">
-
-<a href="https://leetcode.com/hittanshubhanderi20/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black&labelColor=0D1117" height="42"/></a>
-&nbsp;
-<a href="https://www.geeksforgeeks.org/user/hittanshubhanderi20/"><img src="https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white&labelColor=0D1117" height="42"/></a>
-&nbsp;
-<a href="https://www.hackerrank.com/profile/hittanshubhanderi20"><img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white&labelColor=0D1117" height="42"/></a>
-&nbsp;
-<a href="https://www.codechef.com/users/hittanshubhanderi20"><img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white&labelColor=0D1117" height="42"/></a>
+<img src="https://github-readme-stats.vercel.app/api?username=hittanshubhanderi20&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=0A0A0F&title_color=F5F5F7&icon_color=C084FC&text_color=86868B&ring_color=C084FC&hide=contribs" width="48%" alt="github-stats"/>
+<img src="https://streak-stats.demolab.com?user=hittanshubhanderi20&hide_border=true&background=0A0A0F&stroke=C084FC&ring=C084FC&fire=FF6B9D&currStreakLabel=F5F5F7&sideLabels=86868B&dates=6E7681&currStreakNum=F5F5F7&sideNums=F5F5F7" width="48%" alt="streak-stats"/>
 
 <br/><br/>
 
-<img src="https://leetcard.jacoblin.cool/hittanshubhanderi20?theme=dark&font=Fira%20Code&ext=heatmap&border=0&radius=12&site=&bg_color=0D1117&title_color=8B5CF6&text_color=C9D1D9&icon_color=A78BFA&ring=8B5CF6&currStreak=A78BFA" alt="leetcode-stats" width="500"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hittanshubhanderi20&layout=compact&hide_border=true&bg_color=0A0A0F&title_color=F5F5F7&text_color=86868B&langs_count=10&size_weight=0.5&count_weight=0.5" width="48%" alt="top-languages"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=hittanshubhanderi20&theme=react-dark&bg_color=0A0A0F&color=F5F5F7&line=C084FC&point=FF6B9D&area=true&area_color=C084FC&hide_border=true&hide_title=true&custom_title=" width="48%" alt="activity-graph"/>
 
 </div>
 
 <br/>
 
 <!-- ============================================================= -->
-<!--                     GITHUB ANALYTICS                          -->
+<!--                  Contribution Snake                           -->
 <!-- ============================================================= -->
 
-## &nbsp;&nbsp;⟢&nbsp;&nbsp;GitHub Analytics
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=hittanshubhanderi20&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=0D1117&title_color=8B5CF6&icon_color=A78BFA&text_color=C9D1D9&ring_color=8B5CF6" width="48%" alt="github-stats"/>
-<img src="https://streak-stats.demolab.com?user=hittanshubhanderi20&theme=tokyonight&hide_border=true&background=0D1117&stroke=8B5CF6&ring=8B5CF6&fire=A78BFA&currStreakLabel=8B5CF6&sideLabels=C9D1D9&dates=6E7681" width="48%" alt="streak-stats"/>
-
-<br/><br/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hittanshubhanderi20&layout=compact&hide_border=true&bg_color=0D1117&title_color=8B5CF6&text_color=C9D1D9&langs_count=10&size_weight=0.5&count_weight=0.5" width="48%" alt="top-languages"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=hittanshubhanderi20&theme=github_dark" width="48%" alt="summary-card"/>
-
-</div>
-
-<br/>
-
-<!-- ============================================================= -->
-<!--                     GITHUB TROPHIES                           -->
-<!-- ============================================================= -->
-
-## &nbsp;&nbsp;⟢&nbsp;&nbsp;GitHub Trophies
-
-<div align="center">
-
-<a href="https://github.com/ryo-ma/github-profile-trophy">
-  <img src="https://github-profile-trophy.vercel.app/?username=hittanshubhanderi20&theme=onedark&no-frame=true&no-bg=true&row=1&column=7&margin-w=12&margin-h=12" alt="trophies"/>
-</a>
-
-</div>
-
-<br/>
-
-<!-- ============================================================= -->
-<!--                  CONTRIBUTION ACTIVITY                        -->
-<!-- ============================================================= -->
-
-## &nbsp;&nbsp;⟢&nbsp;&nbsp;Contribution Activity
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=hittanshubhanderi20&theme=react-dark&bg_color=0D1117&color=8B5CF6&line=A78BFA&point=ffffff&area=true&area_color=8B5CF6&hide_border=true&custom_title=Contribution%20Activity%20%E2%80%A2%20Last%2031%20Days" width="100%" alt="activity-graph"/>
-
-</div>
-
-<br/>
-
-<!-- ============================================================= -->
-<!--                    CONTRIBUTION SNAKE                         -->
-<!-- ============================================================= -->
-
-## &nbsp;&nbsp;⟢&nbsp;&nbsp;Contribution Snake
+## Contribution Activity
 
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hittanshubhanderi20/hittanshubhanderi20/output/github-contribution-grid-snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hittanshubhanderi20/hittanshubhanderi20/output/github-contribution-grid-snake.svg"/>
-  <img alt="Snake animation eating GitHub contributions" src="https://raw.githubusercontent.com/hittanshubhanderi20/hittanshubhanderi20/output/github-contribution-grid-snake.svg"/>
+  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/hittanshubhanderi20/hittanshubhanderi20/output/github-contribution-grid-snake.svg"/>
 </picture>
 
 </div>
@@ -449,72 +543,83 @@ E-commerce backend and reliability work — fixed checkout-page abandonment caus
 <br/>
 
 <!-- ============================================================= -->
-<!--                       CURRENT FOCUS                           -->
+<!--                      Current Focus                            -->
 <!-- ============================================================= -->
 
-## &nbsp;&nbsp;⟢&nbsp;&nbsp;Current Focus
+## Current Focus
 
 ```yaml
-identity:
-  name: Hittanshu Bhanderi
-  role: ML / AI Engineer
-  status: M.S. Data Science @ Northeastern · Graduating June 2026
-  location: Boston, MA → San Francisco, CA
-  authorization: F-1 OPT · 3 years · no sponsorship required
+role:           Machine Learning Engineer
+status:         M.S. Data Science · Northeastern · June 2026
+location:       Boston, MA → San Francisco, CA
+authorization:  F-1 OPT · 3 years · no sponsorship required
 
 learning:
-  - MLIR pass infrastructure & dialect lowering passes
-  - WebGPU / WGSL compute kernels (FlashAttention-2 in browser)
-  - Distributed training: FSDP, tensor parallelism, Ray
-  - CUDA kernels & GPU programming fundamentals
+  - MLIR pass infrastructure & dialect lowering
+  - WebGPU / WGSL compute kernels (FlashAttention in browser)
+  - Distributed training — FSDP, tensor parallelism, Ray
+  - CUDA kernel programming fundamentals
 
 building:
   - Personal Brain — local-first AI knowledge base on Apple Silicon
-  - FlashWeb — browser-native tiled FlashAttention in raw WGSL
+  - FlashWeb — browser-native tiled FlashAttention in WGSL
   - LLM inference benchmarking framework (vLLM · llama.cpp · HF)
 
 exploring:
   - Compiler-level LLM decoding optimizations (KV cache, paged attn)
   - Multi-agent orchestration patterns & A2A protocols
-  - RAG evaluation: hallucination detection & source attribution
+  - RAG evaluation — hallucination detection, source attribution
 
 open_to:
   - Full-time ML / AI Engineer roles starting July 2026
   - LLM Infrastructure & Applied Scientist positions
   - Open-source collaboration on inference systems
-  - Conversations about agentic AI, RAG, & compiler engineering
 ```
 
 <br/>
 
 <!-- ============================================================= -->
-<!--                          CONNECT                              -->
+<!--                         Connect                               -->
 <!-- ============================================================= -->
 
-## &nbsp;&nbsp;⟢&nbsp;&nbsp;Connect
+## Connect
 
 <div align="center">
 
-<a href="mailto:bhanderi.h@northeastern.edu"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" height="42"/></a>
+<a href="mailto:bhanderi.h@northeastern.edu"><img src="https://img.shields.io/badge/bhanderi.h%40northeastern.edu-13131C?style=for-the-badge&logo=gmail&logoColor=FF6B9D&labelColor=13131C" height="38"/></a>
 &nbsp;
-<a href="https://www.linkedin.com/in/hittanshubhanderi/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" height="42"/></a>
+<a href="https://www.linkedin.com/in/hittanshubhanderi/"><img src="https://img.shields.io/badge/linkedin.com%2Fin%2Fhittanshubhanderi-13131C?style=for-the-badge&logo=linkedin&logoColor=60A5FA&labelColor=13131C" height="38"/></a>
 &nbsp;
-<a href="https://github.com/hittanshubhanderi20"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" height="42"/></a>
-&nbsp;
-<a href="https://github.com/hittanshubhanderi20"><img src="https://img.shields.io/badge/Portfolio-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D1117" height="42"/></a>
+<a href="https://github.com/hittanshubhanderi20"><img src="https://img.shields.io/badge/github.com%2Fhittanshubhanderi20-0A0A0F?style=for-the-badge&logo=github&logoColor=F5F5F7&labelColor=0A0A0F" height="38"/></a>
 
 </div>
 
 <br/>
 
 <!-- ============================================================= -->
-<!--                           FOOTER                              -->
+<!--                          Footer                               -->
 <!-- ============================================================= -->
 
 <div align="center">
 
-> *"The model isn't the system. The system is what ships."*
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=140&section=footer&animation=fadeIn"/>
+<svg width="100%" viewBox="0 0 1200 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="footer">
+  <defs>
+    <linearGradient id="ftBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0A0A0F"/>
+      <stop offset="1" stop-color="#13131C"/>
+    </linearGradient>
+    <linearGradient id="ftLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FF6B9D" stop-opacity="0"/>
+      <stop offset="0.2" stop-color="#FF6B9D" stop-opacity="0.6"/>
+      <stop offset="0.5" stop-color="#C084FC" stop-opacity="0.8"/>
+      <stop offset="0.8" stop-color="#5EEAD4" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#5EEAD4" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="140" fill="url(#ftBg)"/>
+  <line x1="0" y1="40" x2="1200" y2="40" stroke="url(#ftLine)" stroke-width="0.8"/>
+  <text x="600" y="80" text-anchor="middle" fill="#F5F5F7" font-family="-apple-system, 'SF Pro Display', Inter, sans-serif" font-style="italic" font-weight="300" font-size="16">"The model isn't the system. The system is what ships."</text>
+  <text x="600" y="112" text-anchor="middle" fill="#6E6E73" font-family="-apple-system, 'SF Mono', monospace" font-size="10" font-weight="500" letter-spacing="2.4">HITTANSHU  BHANDERI  ·  2026</text>
+</svg>
 
 </div>
