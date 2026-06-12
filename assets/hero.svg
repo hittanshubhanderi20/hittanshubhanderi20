@@ -1,0 +1,71 @@
+<svg width="100%" viewBox="0 0 1400 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hittanshu Bhanderi — Machine Learning Engineer and AI Systems Builder">
+  <defs>
+    <linearGradient id="heroBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A0A0F"/>
+      <stop offset="0.6" stop-color="#0D0D17"/>
+      <stop offset="1" stop-color="#13131C"/>
+    </linearGradient>
+    <linearGradient id="iridescent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FF6B9D"/>
+      <stop offset="0.25" stop-color="#C084FC"/>
+      <stop offset="0.5" stop-color="#60A5FA"/>
+      <stop offset="0.75" stop-color="#5EEAD4"/>
+      <stop offset="1" stop-color="#FDE68A"/>
+    </linearGradient>
+    <radialGradient id="orbOuter" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FF6B9D" stop-opacity="0.40"/>
+      <stop offset="0.4" stop-color="#C084FC" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#5EEAD4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbInner" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.65"/>
+      <stop offset="0.3" stop-color="#C084FC" stop-opacity="0.35"/>
+      <stop offset="0.7" stop-color="#60A5FA" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#0A0A0F" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbCore" cx="0.35" cy="0.35" r="0.5">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="0.4" stop-color="#FFFFFF" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#C084FC" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="orbBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="32"/>
+    </filter>
+    <filter id="orbBlurInner" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <filter id="dotGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="440" fill="url(#heroBg)"/>
+
+  <!-- Iridescent orb (3 stacked layers for depth) -->
+  <circle cx="1100" cy="220" r="260" fill="url(#orbOuter)" filter="url(#orbBlur)"/>
+  <circle cx="1100" cy="220" r="180" fill="url(#orbInner)" filter="url(#orbBlurInner)"/>
+  <circle cx="1100" cy="220" r="100" fill="url(#orbCore)" opacity="0.85"/>
+  <circle cx="1078" cy="198" r="18" fill="#FFFFFF" opacity="0.45" filter="url(#orbBlurInner)"/>
+
+  <!-- Status pill -->
+  <g transform="translate(90, 96)">
+    <rect width="200" height="36" rx="18" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.14)" stroke-width="0.7"/>
+    <circle cx="22" cy="18" r="5" fill="#30D158"/>
+    <circle cx="22" cy="18" r="5" fill="#30D158" opacity="0.4" filter="url(#dotGlow)"/>
+    <text x="40" y="23" fill="#F5F5F7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', Inter, system-ui, sans-serif" font-size="14" font-weight="500" letter-spacing="0.3">Available  ·  July 2026</text>
+  </g>
+
+  <!-- Iridescent accent bar (under name) -->
+  <rect x="90" y="170" width="64" height="3" rx="1.5" fill="url(#iridescent)"/>
+
+  <!-- Name -->
+  <text x="90" y="248" fill="#F5F5F7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', Inter, system-ui, sans-serif" font-size="72" font-weight="300" letter-spacing="-2.4">Hittanshu Bhanderi</text>
+
+  <!-- Subtitle -->
+  <text x="92" y="294" fill="#A1A1A6" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', Inter, system-ui, sans-serif" font-size="24" font-weight="400" letter-spacing="0.1">Machine Learning Engineer  ·  AI Systems Builder</text>
+
+  <!-- Meta line with iridescent prefix -->
+  <line x1="90" y1="358" x2="220" y2="358" stroke="url(#iridescent)" stroke-width="0.8" opacity="0.6"/>
+  <text x="90" y="386" fill="#6E6E73" font-family="-apple-system, 'SF Mono', 'JetBrains Mono', monospace" font-size="11" font-weight="500" letter-spacing="2.4">M.S. DATA SCIENCE  ·  NORTHEASTERN UNIVERSITY  ·  GRADUATING JUNE 2026</text>
+</svg>
